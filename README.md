@@ -1,6 +1,6 @@
 # Vespi (vespi)
 
-a trends page
+A trends page. Available at https://danibarria.com.ar/vespi/#/ . **This is only a landing page.**
 
 ## Install the dependencies
 ```bash
