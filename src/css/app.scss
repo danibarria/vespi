@@ -1,0 +1,134 @@
+// app global css in SCSS form
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.ds-h1 {}
+.ds-h2 {}
+.ds-h3 {
+  font-family: 'NewYorkMediumRegular';
+  font-size: 38px;
+  line-height: 46px;
+}
+.ds-h4 {
+  font-family: 'NewYorkSmallRegular';
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.ds-h5 {
+  font-family: 'NewYorkSmallRegular';
+  font-size: 20px;
+  line-height: 135%;
+  letter-spacing: 0%;
+}
+.ds-h6 {
+  font-family: 'LatoRegular';
+  font-size: 13px;
+  line-height: auto;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+}
+.ds-h6-alternate {
+  font-family: 'NewYorkSmallRegular';
+  font-size: 13px;
+  line-height: 120%;
+  letter-spacing: 2%;
+}
+.micro-caption-text {
+  font-family: 'NewYorkSmallRegular';
+  font-size: 14px;
+  line-height: 146%;
+  letter-spacing: 0%;
+
+}
+.caption-text {
+  font-family: 'LatoRegular';
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0%;
+}
+.ds-mobile-author {
+  font-family: 'NewYorkLargeRegular';
+  font-size: 13px;
+  line-height: 1px;
+  letter-spacing: 2%;
+}
+.ds-mobile-latest-happenings {
+  font-family: 'NewYorkLargeRegular';
+  font-size: 28px;
+  line-height: 1.1px;
+  letter-spacing: 0%;
+}
+
+.ds-mobile-h1 {
+  font-family: 'NewYorkExtraLargeRegular';
+  font-size: 40px;
+  line-height: 105%;
+  letter-spacing: 0%;
+}
+
+.ds-mobile-h2 {
+  font-family: 'NewYorkMediumRegular';
+  font-size: 40px;
+  line-height: 105%;
+  letter-spacing: 0%;
+}
+
+.ds-mobile-h3 {
+  font-family: 'NewYorkMediumRegular';
+  font-size: 26px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.ds-mobile-h4 {
+  font-family: 'NewYorkMediumRegular';
+  font-size: 21px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+
+.ds-mobile-featured-paragraph {
+  font-family: 'NewYorkMediumRegular';
+  font-size: 19px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.ds-paragraph {
+  font-family: 'NewYorkSmallRegular';
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+@font-face {
+  font-family: 'NewYorkExtraLargeRegular';
+  src: url('./new-york-extra-large/NewYorkExtraLargeRegular.woff');
+}
+@font-face {
+  font-family: 'NewYorkMediumRegular';
+  src: url('./new-york-extra-large/NewYorkMediumRegular.woff');
+}
+
+@font-face {
+  font-family: 'NewYorkSmallRegular';
+  src: url('./new-york-extra-large/NewYorkSmallRegular.woff');
+}
+
+@font-face {
+  font-family: 'NewYorkLargeRegular';
+  src: url('./new-york-extra-large/NewYorkLargeRegular.woff')
+}
+
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('./lato/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('./lato/Lato-Black.ttf');
+}

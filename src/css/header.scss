@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 20px;
+  * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search {
+    margin-left: 20px;
+  }
+  .brand {
+    margin-left: -20px;
+    flex-grow: 1;
+    text-align: center;
+  }
+}

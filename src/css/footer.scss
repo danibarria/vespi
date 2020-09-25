@@ -1,0 +1,57 @@
+footer {
+  background-color: $bg-light-cream;
+  padding: 60px 26px 0px 26px;
+  .imageandlogo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+    .logo {
+      margin-top: 30px;
+    }
+  }
+  .links-wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+
+    .link {
+      color: #6A6161;
+      font-family: 'NewYorkSmallRegular';
+      font-size: 16px;
+      line-height: 200%;
+      letter-spacing: 0%;
+    }
+    .main {
+      margin-bottom: 10px;
+    }
+  }
+  .our-locations {
+    margin-bottom: 75px;
+    .location {
+      margin-top: 37px;
+      .store {
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 1px;
+      }
+      .street {
+        color: $text-grey;
+      }
+    }
+  }
+  .social-networks {
+    margin-top: 56px;
+    margin-bottom: 33px;
+  }
+  .copyright {
+    padding-bottom: 53px;
+    p {
+      color: #6A6161;
+    }
+  }
+}
